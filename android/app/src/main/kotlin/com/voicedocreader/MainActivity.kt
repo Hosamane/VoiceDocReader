@@ -1,0 +1,6 @@
+package com.voicedocreader
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
