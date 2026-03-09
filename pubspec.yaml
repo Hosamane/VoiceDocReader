@@ -1,5 +1,7 @@
 name: voicedocreader
-description: A standalone offline document reader with TTS and voice commands.
+description: Standalone offline document reader with TTS and voice commands.
+publish_to: "none"
+
 version: 1.0.0+1
 
 environment:
@@ -10,19 +12,34 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+
+  # File access
   file_picker: ^6.2.1
+  path_provider: ^2.1.3
+
+  # Text to speech
   flutter_tts: ^3.8.5
+
+  # Voice commands
   speech_to_text: ^6.6.2
+
+  # Document parsing
   syncfusion_flutter_pdf: ^23.2.7
   docx_to_text: ^1.0.1
+
+  # Permissions
   permission_handler: ^11.0.1
-  path_provider: ^2.1.3
-  intl: ^0.18.1
+
+  # State management
   provider: ^6.1.1
+
+  # Utilities
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
   flutter_lints: ^2.0.3
 
 flutter:
