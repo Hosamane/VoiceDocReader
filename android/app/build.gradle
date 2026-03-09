@@ -1,0 +1,5 @@
+defaultConfig {
+    applicationId "com.voicedocreader"
+    minSdkVersion 21
+    targetSdkVersion 34
+}
